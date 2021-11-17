@@ -1,45 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "GGv12hLlETWJWfZPDNFE5Ci9CcMRp6U++gBDSs9TpYr0ZHLpbYUyCBXr3GS7LNtdtJPDUvs1auRi+Gpx/QNgpg==",
-  "success": false,
-  "projectFilePath": "C:\\Users\\nicoe\\Source\\Repos\\Time-Management\\RudeTime\\RudeTime.csproj",
-  "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package Microsoft.NETCore.App.Host.win-x64. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
-      "libraryId": "Microsoft.NETCore.App.Host.win-x64",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package Microsoft.AspNetCore.App.Ref. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
-      "libraryId": "Microsoft.AspNetCore.App.Ref",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package Microsoft.WindowsDesktop.App.Ref. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
-      "libraryId": "Microsoft.WindowsDesktop.App.Ref",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package Microsoft.NETCore.App.Ref. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
-      "libraryId": "Microsoft.NETCore.App.Ref",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  "dgSpecHash": "f1MplIOBdx3n1/V9HcNeYht1buPSTfehiAKc3ren/lY1uCc+cZahjt9lXMP56Vmb50kzPO7UHLRyxx0DqZDUGw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mattj\\Source\\Repos\\Time-Management\\RudeTime\\RudeTime.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mattj\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512",
+    "C:\\Users\\mattj\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\mattj\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\mattj\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
 }

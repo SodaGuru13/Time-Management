@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nicoe\\Source\\Repos\\Time-Management\\RudeTime\\RudeTime.csproj": {}
+    "C:\\Users\\mattj\\Source\\Repos\\Time-Management\\RudeTime\\RudeTime.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nicoe\\Source\\Repos\\Time-Management\\RudeTime\\RudeTime.csproj": {
+    "C:\\Users\\mattj\\Source\\Repos\\Time-Management\\RudeTime\\RudeTime.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicoe\\Source\\Repos\\Time-Management\\RudeTime\\RudeTime.csproj",
+        "projectUniqueName": "C:\\Users\\mattj\\Source\\Repos\\Time-Management\\RudeTime\\RudeTime.csproj",
         "projectName": "RudeTime",
-        "projectPath": "C:\\Users\\nicoe\\Source\\Repos\\Time-Management\\RudeTime\\RudeTime.csproj",
-        "packagesPath": "C:\\Users\\nicoe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicoe\\Source\\Repos\\Time-Management\\RudeTime\\obj\\",
+        "projectPath": "C:\\Users\\mattj\\Source\\Repos\\Time-Management\\RudeTime\\RudeTime.csproj",
+        "packagesPath": "C:\\Users\\mattj\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mattj\\Source\\Repos\\Time-Management\\RudeTime\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\nicoe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mattj\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,7 +25,8 @@
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
