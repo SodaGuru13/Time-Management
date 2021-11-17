@@ -1,8 +1,20 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "fu0v4+Zh5rEZ1Fj+XgyQ2ciLw4iEZ7+jsts+zYWaZsS1jxLZRz+mc2mDeHmySar2iuuRRWQ9rAc0MM1PAbfwnQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\DSU Student\\Documents\\Fall 2021\\Software Engineering\\TimeManagement\\RudeTime\\RudeTime.csproj",
   "expectedPackageFiles": [],
+=======
+  "dgSpecHash": "f1MplIOBdx3n1/V9HcNeYht1buPSTfehiAKc3ren/lY1uCc+cZahjt9lXMP56Vmb50kzPO7UHLRyxx0DqZDUGw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mattj\\Source\\Repos\\Time-Management\\RudeTime\\RudeTime.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mattj\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512",
+    "C:\\Users\\mattj\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\mattj\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\mattj\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+>>>>>>> 2c16522c7925f622416997135ef169645080f258
   "logs": []
 }
