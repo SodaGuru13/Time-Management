@@ -1,10 +1,109 @@
 ﻿using System;
 using System.Globalization;
+using System.Collections.Generic;
 
 namespace TimeTest
 {
     class Program
     {
+        private void ListsDino()
+        {
+            List<string> dinosaurs = new List<string>();
+
+            Console.WriteLine("\nCapacity: {0}", dinosaurs.Capacity);
+
+            dinosaurs.Add("Tyrannosaurus");
+            dinosaurs.Add("Amargasaurus");
+            dinosaurs.Add("Mamenchisaurus");
+            dinosaurs.Add("Deinonychus");
+            dinosaurs.Add("Compsognathus");
+            Console.WriteLine();
+            foreach(string dinosaur in dinosaurs)
+            {
+                Console.WriteLine(dinosaur);
+            }
+
+            Console.WriteLine("\nCapacity: {0}", dinosaurs.Capacity);
+            Console.WriteLine("Count: {0}", dinosaurs.Count);
+
+            Console.WriteLine("\nContains(\"Deinonychus\"): {0}", dinosaurs.Contains("Deinonychus"));
+
+            Console.WriteLine("\nInsert(2, \"Compsognathus\")");
+            dinosaurs.Insert(2, "Compsognathus");
+
+            Console.WriteLine();
+            foreach(string dinosaur in dinosaurs)
+            {
+                Console.WriteLine(dinosaur);
+            }
+
+            // Shows accessing the list using the Item property.
+            Console.WriteLine("\ndinosaurs[3]: {0}", dinosaurs[3]);
+
+            Console.WriteLine("\nRemove(\"Compsognathus\")");
+            dinosaurs.Remove("Compsognathus");
+
+            Console.WriteLine();
+            foreach(string dinosaur in dinosaurs)
+            {
+                Console.WriteLine(dinosaur);
+            }
+
+            dinosaurs.TrimExcess();
+            Console.WriteLine("\nTrimExcess()", dinosaurs.Capacity);
+            Console.WriteLine("Count: {0}", dinosaurs.Count);
+
+            dinosaurs.Clear();
+            Console.WriteLine("\nClear()");
+            Console.WriteLine("Capacity: {0}", dinosaurs.Capacity);
+            Console.WriteLine("Count: {0}", dinosaurs.Count);
+        }
+        private void ListsParts()
+        {
+            // Create a list of parts.
+            List<Part> parts = new List<Part>();
+
+            parts.Add(new Part() { PartName = "crank arm", PartId = 1234 });
+            parts.Add(new Part() { PartName = "chain ring", PartId = 1334 });
+            parts.Add(new Part() { PartName = "regular seat", PartId = 1434 });
+            parts.Add(new Part() { PartName = "banana seat", PartId = 1444 });
+            parts.Add(new Part() { PartName = "cassette", PartId = 1534 });
+            parts.Add(new Part() { PartName = "shift lever", PartId = 1634 });
+
+            // Write out the parts in the list. This will call the overridden ToString method in the Part class.
+            Console.WriteLine();
+            foreach (Part aPart in parts)
+            {
+                Console.WriteLine(aPart);
+            }
+
+            // Check the list for part #1734. This calls the IEquatable.Equals method of the Part class, which checks the PartId for equality.
+            Console.WriteLine("\nContains(\"1734\"): {0}", parts.Contains(new Part { PartId = 1734, PartName = "" }));
+
+            // Insert a new item at position 2.
+            Console.WriteLine("\nInsert(2, \"1834\")");
+            parts.Insert(2, new Part() { PartName = "brake lever", PartId = 1834 });
+
+            //Console.WriteLine();
+            foreach (Part aPart in parts)
+            {
+                Console.WriteLine(aPart);
+            }
+
+            Console.WriteLine("\nParts[3]: {0}", parts[3]);
+
+            Console.WriteLine("\nRemove(\"1534\")");
+
+            // This will remove part 1534 even though the PartName is different, because the Equals method only checks PartId for equality.
+            parts.Remove(new Part() { PartId = 1534, PartName = "cogs" });
+
+            Console.WriteLine();
+            foreach (Part aPart in parts)
+            {
+                Console.WriteLine(aPart);
+            }
+
+        }
         private void WeekDay()
         {
             // Assume the current is en-US.
@@ -94,6 +193,8 @@ namespace TimeTest
             daysOfMonth = p.DaysInMonth();
             p.fullYearsDays();
             p.WeekDay();
+            p.ListsParts();
+            p.ListsDino();
         }
     }
 }
