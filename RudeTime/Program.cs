@@ -6,7 +6,8 @@ namespace RudeTime
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello E");
+            Console.WriteLine("Hello E*2");
         }
     }
 }
+// test

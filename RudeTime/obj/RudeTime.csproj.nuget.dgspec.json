@@ -1,31 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DSU Student\\OneDrive - Dakota State University\\Fifth Semester Fall 2021\\Software Engineering CSC 470\\Main Project\\Main Code\\RudeTime\\RudeTime.csproj": {}
+    "C:\\Users\\nicoe\\Source\\Repos\\Time-Management\\RudeTime\\RudeTime.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DSU Student\\OneDrive - Dakota State University\\Fifth Semester Fall 2021\\Software Engineering CSC 470\\Main Project\\Main Code\\RudeTime\\RudeTime.csproj": {
+    "C:\\Users\\nicoe\\Source\\Repos\\Time-Management\\RudeTime\\RudeTime.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DSU Student\\OneDrive - Dakota State University\\Fifth Semester Fall 2021\\Software Engineering CSC 470\\Main Project\\Main Code\\RudeTime\\RudeTime.csproj",
+        "projectUniqueName": "C:\\Users\\nicoe\\Source\\Repos\\Time-Management\\RudeTime\\RudeTime.csproj",
         "projectName": "RudeTime",
-        "projectPath": "C:\\Users\\DSU Student\\OneDrive - Dakota State University\\Fifth Semester Fall 2021\\Software Engineering CSC 470\\Main Project\\Main Code\\RudeTime\\RudeTime.csproj",
-        "packagesPath": "C:\\Users\\DSU Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DSU Student\\OneDrive - Dakota State University\\Fifth Semester Fall 2021\\Software Engineering CSC 470\\Main Project\\Main Code\\RudeTime\\obj\\",
+        "projectPath": "C:\\Users\\nicoe\\Source\\Repos\\Time-Management\\RudeTime\\RudeTime.csproj",
+        "packagesPath": "C:\\Users\\nicoe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nicoe\\Source\\Repos\\Time-Management\\RudeTime\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\DSU Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nicoe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -37,6 +41,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -47,12 +52,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.21, 3.1.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
