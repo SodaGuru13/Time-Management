@@ -8,42 +8,25 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\DSU Student\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
-=======
-    "C:\\Users\\mattj\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
->>>>>>> 2c16522c7925f622416997135ef169645080f258
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\DSU Student\\Documents\\Fall 2021\\Software Engineering\\TimeManagement\\RudeTime\\RudeTime.csproj",
       "projectName": "RudeTime",
       "projectPath": "C:\\Users\\DSU Student\\Documents\\Fall 2021\\Software Engineering\\TimeManagement\\RudeTime\\RudeTime.csproj",
       "packagesPath": "C:\\Users\\DSU Student\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\DSU Student\\Documents\\Fall 2021\\Software Engineering\\TimeManagement\\RudeTime\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\mattj\\Source\\Repos\\Time-Management\\RudeTime\\RudeTime.csproj",
-      "projectName": "RudeTime",
-      "projectPath": "C:\\Users\\mattj\\Source\\Repos\\Time-Management\\RudeTime\\RudeTime.csproj",
-      "packagesPath": "C:\\Users\\mattj\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mattj\\Source\\Repos\\Time-Management\\RudeTime\\obj\\",
->>>>>>> 2c16522c7925f622416997135ef169645080f258
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-<<<<<<< HEAD
         "C:\\Users\\DSU Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-        "C:\\Users\\mattj\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 2c16522c7925f622416997135ef169645080f258
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -87,5 +70,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\DSU Student\\Documents\\Fall 2021\\Software Engineering\\TimeManagement\\RudeTime\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
