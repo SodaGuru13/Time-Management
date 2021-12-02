@@ -6,7 +6,7 @@ namespace RudeTime
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello E*2");
+            Console.WriteLine("Welcome to the UserInterface Calender Testing branch!");
         }
     }
 }
