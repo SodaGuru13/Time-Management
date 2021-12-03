@@ -1,6 +1,6 @@
 ﻿namespace PosRudeTimeNew
 {
-    partial class Calender
+    partial class Calendar
     {
         /// <summary>
         /// Required designer variable.

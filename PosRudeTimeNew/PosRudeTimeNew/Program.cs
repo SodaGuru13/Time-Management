@@ -16,7 +16,7 @@ namespace PosRudeTimeNew
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Calender());
+            Application.Run(new Calendar());
         }
     }
 }
