@@ -37,11 +37,11 @@ namespace PosRudeTimeNew
             this.EventTitle.AccessibleDescription = "The event form is open, you can edit or view your event";
             this.EventTitle.AccessibleName = "eventForm";
             this.EventTitle.AutoSize = true;
-            this.EventTitle.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EventTitle.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EventTitle.ForeColor = System.Drawing.Color.Black;
-            this.EventTitle.Location = new System.Drawing.Point(207, 22);
+            this.EventTitle.Location = new System.Drawing.Point(181, 9);
             this.EventTitle.Name = "EventTitle";
-            this.EventTitle.Size = new System.Drawing.Size(93, 32);
+            this.EventTitle.Size = new System.Drawing.Size(131, 46);
             this.EventTitle.TabIndex = 0;
             this.EventTitle.Text = "Event";
             this.EventTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -54,7 +54,7 @@ namespace PosRudeTimeNew
             this.ClientSize = new System.Drawing.Size(525, 465);
             this.Controls.Add(this.EventTitle);
             this.Name = "TimeBlockInt";
-            this.Text = "Form1";
+            this.Text = "Event";
             this.ResumeLayout(false);
             this.PerformLayout();
 
