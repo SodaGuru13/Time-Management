@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\RudeTime",
-    "\\TimeTest"
+    "\\RudeTime"
   ],
-  "SelectedNode": "\\TimeTest\\TimeTest.sln",
+  "SelectedNode": "\\RudeTime\\RudeTime.sln",
   "PreviewInSolutionExplorer": false
 }

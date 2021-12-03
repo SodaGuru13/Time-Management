@@ -1,43 +1,20 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\DSU Student\\Documents\\Fall 2021\\Software Engineering\\TimeManagement\\RudeTime\\RudeTime.csproj": {}
+    "C:\\Users\\DSU Student\\OneDrive - Dakota State University\\Fifth Semester Fall 2021\\Classes\\Software Engineering CSC 470\\Main Project\\Real Main Code\\Time-Management\\RudeTime\\RudeTime.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DSU Student\\Documents\\Fall 2021\\Software Engineering\\TimeManagement\\RudeTime\\RudeTime.csproj": {
+    "C:\\Users\\DSU Student\\OneDrive - Dakota State University\\Fifth Semester Fall 2021\\Classes\\Software Engineering CSC 470\\Main Project\\Real Main Code\\Time-Management\\RudeTime\\RudeTime.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DSU Student\\Documents\\Fall 2021\\Software Engineering\\TimeManagement\\RudeTime\\RudeTime.csproj",
+        "projectUniqueName": "C:\\Users\\DSU Student\\OneDrive - Dakota State University\\Fifth Semester Fall 2021\\Classes\\Software Engineering CSC 470\\Main Project\\Real Main Code\\Time-Management\\RudeTime\\RudeTime.csproj",
         "projectName": "RudeTime",
-        "projectPath": "C:\\Users\\DSU Student\\Documents\\Fall 2021\\Software Engineering\\TimeManagement\\RudeTime\\RudeTime.csproj",
+        "projectPath": "C:\\Users\\DSU Student\\OneDrive - Dakota State University\\Fifth Semester Fall 2021\\Classes\\Software Engineering CSC 470\\Main Project\\Real Main Code\\Time-Management\\RudeTime\\RudeTime.csproj",
         "packagesPath": "C:\\Users\\DSU Student\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DSU Student\\Documents\\Fall 2021\\Software Engineering\\TimeManagement\\RudeTime\\obj\\",
-=======
-    "C:\\Users\\mattj\\Source\\Repos\\Time-Management\\RudeTime\\RudeTime.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\mattj\\Source\\Repos\\Time-Management\\RudeTime\\RudeTime.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\mattj\\Source\\Repos\\Time-Management\\RudeTime\\RudeTime.csproj",
-        "projectName": "RudeTime",
-        "projectPath": "C:\\Users\\mattj\\Source\\Repos\\Time-Management\\RudeTime\\RudeTime.csproj",
-        "packagesPath": "C:\\Users\\mattj\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mattj\\Source\\Repos\\Time-Management\\RudeTime\\obj\\",
->>>>>>> 2c16522c7925f622416997135ef169645080f258
+        "outputPath": "C:\\Users\\DSU Student\\OneDrive - Dakota State University\\Fifth Semester Fall 2021\\Classes\\Software Engineering CSC 470\\Main Project\\Real Main Code\\Time-Management\\RudeTime\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\DSU Student\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-          "C:\\Users\\mattj\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 2c16522c7925f622416997135ef169645080f258
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -49,7 +26,6 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -61,7 +37,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -77,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
