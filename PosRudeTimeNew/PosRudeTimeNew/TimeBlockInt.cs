@@ -16,5 +16,10 @@ namespace PosRudeTimeNew
         {
             InitializeComponent();
         }
+
+        private void EventTitle_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

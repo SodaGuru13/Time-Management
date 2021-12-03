@@ -29,12 +29,39 @@ namespace PosRudeTimeNew
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.EventTitle = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // EventTitle
+            // 
+            this.EventTitle.AccessibleDescription = "The event form is open, you can edit or view your event";
+            this.EventTitle.AccessibleName = "eventForm";
+            this.EventTitle.AutoSize = true;
+            this.EventTitle.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.EventTitle.ForeColor = System.Drawing.Color.Black;
+            this.EventTitle.Location = new System.Drawing.Point(207, 22);
+            this.EventTitle.Name = "EventTitle";
+            this.EventTitle.Size = new System.Drawing.Size(93, 32);
+            this.EventTitle.TabIndex = 0;
+            this.EventTitle.Text = "Event";
+            this.EventTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.EventTitle.Click += new System.EventHandler(this.EventTitle_Click);
+            // 
+            // TimeBlockInt
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(525, 465);
+            this.Controls.Add(this.EventTitle);
+            this.Name = "TimeBlockInt";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label EventTitle;
     }
 }
