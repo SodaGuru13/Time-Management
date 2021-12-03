@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PosRudeTimeNew
 {
-    public partial class Form2 : Form
+    public partial class Calender : Form
     {
-        public Form2()
+        public Calender()
         {
             InitializeComponent();
         }
