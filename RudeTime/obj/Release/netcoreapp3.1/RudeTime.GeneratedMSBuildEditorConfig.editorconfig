@@ -1,7 +1,3 @@
 is_global = true
 build_property.RootNamespace = RudeTime
-<<<<<<< HEAD
-build_property.ProjectDir = C:\Users\DSU Student\Documents\Fall 2021\Software Engineering\TimeManagement\RudeTime\
-=======
-build_property.ProjectDir = C:\Users\mattj\Source\Repos\Time-Management\RudeTime\
->>>>>>> 2c16522c7925f622416997135ef169645080f258
+build_property.ProjectDir = C:\Users\nicoe\source\repos_new_12022021\RudeTime\
