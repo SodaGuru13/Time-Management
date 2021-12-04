@@ -29,30 +29,25 @@ namespace PosRudeTimeNew
         /// </summary>
         private void InitializeComponent()
         {
-            this.EventTitle = new System.Windows.Forms.Label();
+            this.TimeBlockIntLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // EventTitle
+            // TimeBlockIntLabel
             // 
-            this.EventTitle.AccessibleDescription = "The event form is open, you can edit or view your event";
-            this.EventTitle.AccessibleName = "eventForm";
-            this.EventTitle.AutoSize = true;
-            this.EventTitle.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EventTitle.ForeColor = System.Drawing.Color.Black;
-            this.EventTitle.Location = new System.Drawing.Point(181, 9);
-            this.EventTitle.Name = "EventTitle";
-            this.EventTitle.Size = new System.Drawing.Size(131, 46);
-            this.EventTitle.TabIndex = 0;
-            this.EventTitle.Text = "Event";
-            this.EventTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.EventTitle.Click += new System.EventHandler(this.EventTitle_Click);
+            this.TimeBlockIntLabel.AutoSize = true;
+            this.TimeBlockIntLabel.Font = new System.Drawing.Font("Palatino Linotype", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TimeBlockIntLabel.Location = new System.Drawing.Point(420, 30);
+            this.TimeBlockIntLabel.Name = "TimeBlockIntLabel";
+            this.TimeBlockIntLabel.Size = new System.Drawing.Size(164, 38);
+            this.TimeBlockIntLabel.TabIndex = 0;
+            this.TimeBlockIntLabel.Text = "Time Block";
             // 
             // TimeBlockInt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(525, 465);
-            this.Controls.Add(this.EventTitle);
+            this.ClientSize = new System.Drawing.Size(970, 524);
+            this.Controls.Add(this.TimeBlockIntLabel);
             this.Name = "TimeBlockInt";
             this.Text = "Event";
             this.ResumeLayout(false);
@@ -62,6 +57,6 @@ namespace PosRudeTimeNew
 
         #endregion
 
-        private System.Windows.Forms.Label EventTitle;
+        private System.Windows.Forms.Label TimeBlockIntLabel;
     }
 }
