@@ -17,7 +17,7 @@ namespace PosRudeTimeNew
         {
             Name = name;
             Description = description;
-            Location = location;
+            Location = location; 
             StartTime = startime;
             EndTime = endtime;
         }
