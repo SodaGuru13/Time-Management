@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace PosRudeTimeNew
+namespace DateTimePicker
 {
-    public partial class TimeBlockInt : Form
+    public partial class Form1 : Form
     {
-        public TimeBlockInt()
+        public Form1()
         {
             InitializeComponent();
         }

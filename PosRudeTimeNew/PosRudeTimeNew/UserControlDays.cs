@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace PosRudeTimeNew
 {
-    public partial class TimeBlockInt : Form
+    public partial class UserControlDays : UserControl
     {
-        public TimeBlockInt()
+        public UserControlDays()
         {
             InitializeComponent();
+        }
+
+        private void UserControlDays_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        public void day(int dayNum)
+        {
+            labDays.Text = dayNum+""; 
         }
     }
 }

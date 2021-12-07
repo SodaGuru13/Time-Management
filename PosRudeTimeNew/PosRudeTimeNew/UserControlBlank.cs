@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PosRudeTimeNew
 {
-    public partial class TimeBlockInt : Form
+    public partial class UserControlBlank : UserControl
     {
-        public TimeBlockInt()
+        public UserControlBlank()
         {
             InitializeComponent();
         }
