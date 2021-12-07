@@ -30,7 +30,7 @@ namespace PosRudeTimeNew
             Month = now.Month;
             Year = now.Year;
 
-            string monthName = DateTimeFormatInfo.CurrentInfo.GetMonthName(Month); 
+            string monthName = DateTimeFormatInfo.CurrentInfo.GetMonthName(Month);
             MnYrDate.Text = monthName + " " + Year; 
             
 
@@ -75,7 +75,7 @@ namespace PosRudeTimeNew
          
             string monthName = DateTimeFormatInfo.CurrentInfo.GetMonthName(Month);
             MnYrDate.Text = monthName + " " + Year;
-
+            
             DateTime startofthemonth = new DateTime(Year, Month, 1); //gets 1st day of the month
 
             int days = DateTime.DaysInMonth(Year, Month); //gets the number of days in a month
