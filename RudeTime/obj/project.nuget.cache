@@ -1,15 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "Im1T6Iu1SFv5JkdrcmNvJnKy2PffJ1jRgdEdTRlS+hsy+tJEGszMaUP7twdNgXvlhUnrPoo8DY3eoVjDt4H6QQ==",
+  "dgSpecHash": "V7UgLzdYjms5Gr2GXmr9RTmjrqIPZU10pGWTCK8we1kXqz4OaBtQvuvE3WN8z48oW+9Ktq5cL3YfFG0UligqOQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DSU Student\\OneDrive - Dakota State University\\Fifth Semester Fall 2021\\Classes\\Software Engineering CSC 470\\Main Project\\Real Main Code\\Time-Management\\RudeTime\\RudeTime.csproj",
-  "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\DSU Student\\OneDrive - Dakota State University\\Fifth Semester Fall 2021\\Classes\\Software Engineering CSC 470\\Main Project\\Real Main Code\\Time-Management\\RudeTime\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "projectFilePath": "C:\\Users\\mattj\\Source\\Repos\\SodaGuru13\\Time-Management\\RudeTime\\RudeTime.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mattj\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512",
+    "C:\\Users\\mattj\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\mattj\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\mattj\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
 }
