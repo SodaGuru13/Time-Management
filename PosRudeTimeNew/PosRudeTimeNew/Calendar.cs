@@ -60,9 +60,19 @@ namespace PosRudeTimeNew
         {
             //clear container
             daycontainer.Controls.Clear();
-            //increment month to go to next month
-            Month++;
+            if (Month <= 11)
+            {
+                Month++;
 
+            }
+            else
+            {
+                Month = 1;
+                Year++;
+            }
+            //increment month to go to next month
+           
+         
             string monthName = DateTimeFormatInfo.CurrentInfo.GetMonthName(Month);
             MnYrDate.Text = monthName + " " + Year;
 
@@ -93,8 +103,18 @@ namespace PosRudeTimeNew
             //clear container
             daycontainer.Controls.Clear();
             //increment month to go to next month
-            Month--;
-
+            if(Month > 1)
+            {
+                Month--; 
+            }
+            else
+            {
+                Month = 12;
+                Year--; 
+            }
+            
+            
+           
             string monthName = DateTimeFormatInfo.CurrentInfo.GetMonthName(Month);
             MnYrDate.Text = monthName + " " + Year;
 
