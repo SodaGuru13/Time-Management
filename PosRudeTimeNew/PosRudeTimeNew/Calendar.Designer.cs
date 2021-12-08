@@ -38,7 +38,8 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.MnYrDate = new System.Windows.Forms.Label();
+            this.Mnth = new System.Windows.Forms.Label();
+            this.Yr = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // daycontainer
@@ -138,22 +139,33 @@
             this.label7.TabIndex = 8;
             this.label7.Text = "Saturday";
             // 
-            // MnYrDate
+            // Mnth
             // 
-            this.MnYrDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MnYrDate.Location = new System.Drawing.Point(385, 9);
-            this.MnYrDate.Name = "MnYrDate";
-            this.MnYrDate.Size = new System.Drawing.Size(286, 29);
-            this.MnYrDate.TabIndex = 9;
-            this.MnYrDate.Text = "Month Year";
-            this.MnYrDate.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.Mnth.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Mnth.Location = new System.Drawing.Point(379, 9);
+            this.Mnth.Name = "Mnth";
+            this.Mnth.Size = new System.Drawing.Size(169, 29);
+            this.Mnth.TabIndex = 9;
+            this.Mnth.Text = "Month";
+            this.Mnth.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // Yr
+            // 
+            this.Yr.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Yr.Location = new System.Drawing.Point(529, 9);
+            this.Yr.Name = "Yr";
+            this.Yr.Size = new System.Drawing.Size(101, 34);
+            this.Yr.TabIndex = 10;
+            this.Yr.Text = "Year";
+            this.Yr.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // Calendar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1108, 641);
-            this.Controls.Add(this.MnYrDate);
+            this.Controls.Add(this.Yr);
+            this.Controls.Add(this.Mnth);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
@@ -185,7 +197,8 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label MnYrDate;
+        private System.Windows.Forms.Label Mnth;
+        private System.Windows.Forms.Label Yr;
     }
 }
 

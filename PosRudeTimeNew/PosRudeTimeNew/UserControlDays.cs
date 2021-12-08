@@ -12,6 +12,7 @@ namespace PosRudeTimeNew
 {
     public partial class UserControlDays : UserControl
     {
+       
         public UserControlDays()
         {
             InitializeComponent();
@@ -25,6 +26,15 @@ namespace PosRudeTimeNew
         public void day(int dayNum)
         {
             labDays.Text = dayNum+""; 
+        }
+
+        private void UserControlDays_Click(object sender, EventArgs e)
+        {
+            
+            TimeBlockInt timeBlock = new TimeBlockInt();
+            timeBlock.Show();
+            Console.WriteLine(labDays.Text);
+            
         }
     }
 }

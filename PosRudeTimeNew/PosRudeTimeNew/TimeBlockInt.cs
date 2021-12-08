@@ -12,9 +12,26 @@ namespace PosRudeTimeNew
 {
     public partial class TimeBlockInt : Form
     {
+       
+
         public TimeBlockInt()
         {
             InitializeComponent();
+        }
+
+        private void TimeBlockInt_Load(object sender, EventArgs e)
+        {
+          
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void MnDyYr_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

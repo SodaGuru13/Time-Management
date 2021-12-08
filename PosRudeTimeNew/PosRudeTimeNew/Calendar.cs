@@ -14,6 +14,9 @@ namespace PosRudeTimeNew
     public partial class Calendar : Form
     {
         int Month, Year; 
+ 
+      
+
         public Calendar()
         {
             InitializeComponent();
@@ -30,8 +33,11 @@ namespace PosRudeTimeNew
             Month = now.Month;
             Year = now.Year;
 
+
             string monthName = DateTimeFormatInfo.CurrentInfo.GetMonthName(Month);
-            MnYrDate.Text = monthName + " " + Year; 
+            Mnth.Text = monthName;
+            Yr.Text = Year.ToString(); 
+
             
 
             DateTime startofthemonth = new DateTime(Year, Month, 1); //gets 1st day of the month
@@ -74,7 +80,8 @@ namespace PosRudeTimeNew
            
          
             string monthName = DateTimeFormatInfo.CurrentInfo.GetMonthName(Month);
-            MnYrDate.Text = monthName + " " + Year;
+            Mnth.Text = monthName;
+            Yr.Text = Year.ToString(); 
             
             DateTime startofthemonth = new DateTime(Year, Month, 1); //gets 1st day of the month
 
@@ -116,7 +123,8 @@ namespace PosRudeTimeNew
             
            
             string monthName = DateTimeFormatInfo.CurrentInfo.GetMonthName(Month);
-            MnYrDate.Text = monthName + " " + Year;
+            Mnth.Text = monthName;
+            Yr.Text = Year.ToString();
 
             DateTime startofthemonth = new DateTime(Year, Month, 1); //gets 1st day of the month
 
