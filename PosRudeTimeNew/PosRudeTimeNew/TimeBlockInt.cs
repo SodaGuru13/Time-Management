@@ -14,9 +14,9 @@ namespace PosRudeTimeNew
     {
        
 
-        public TimeBlockInt()
+        public TimeBlockInt(DateTime recievedFromCalender)
         {
-            InitializeComponent();
+            InitializeComponent(recievedFromCalender);
         }
 
         private void TimeBlockInt_Load(object sender, EventArgs e)

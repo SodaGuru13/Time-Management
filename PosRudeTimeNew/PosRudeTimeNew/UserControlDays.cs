@@ -12,9 +12,10 @@ namespace PosRudeTimeNew
 {
     public partial class UserControlDays : UserControl
     {
-       
-        public UserControlDays()
+        private DateTime takeIn;
+        public UserControlDays(DateTime recieved)
         {
+            takeIn = recieved;
             InitializeComponent();
         }
 
@@ -31,10 +32,8 @@ namespace PosRudeTimeNew
         private void UserControlDays_Click(object sender, EventArgs e)
         {
             
-            TimeBlockInt timeBlock = new TimeBlockInt();
+            TimeBlockInt timeBlock = new TimeBlockInt(takeIn);
             timeBlock.Show();
-            Console.WriteLine(labDays.Text);
-            
         }
     }
 }

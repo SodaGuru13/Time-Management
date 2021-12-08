@@ -41,7 +41,7 @@ namespace PosRudeTimeNew
             
 
             DateTime startofthemonth = new DateTime(Year, Month, 1); //gets 1st day of the month
-            
+            DateTime temp;
             int days = DateTime.DaysInMonth(Year, Month); //gets the number of days in a month
 
             int dayofWeek = Convert.ToInt32(startofthemonth.DayOfWeek.ToString("d")) + 1; //converts the days of months to an interger value
@@ -54,7 +54,8 @@ namespace PosRudeTimeNew
             }
             for ( int i = 1; i<= days; i++)
             {
-                UserControlDays ucDays = new UserControlDays();
+                temp = new DateTime(Year, Month, i);
+                UserControlDays ucDays = new UserControlDays(temp);
                 ucDays.day(i);
                 daycontainer.Controls.Add(ucDays); 
             }
@@ -84,7 +85,7 @@ namespace PosRudeTimeNew
             Yr.Text = Year.ToString(); 
             
             DateTime startofthemonth = new DateTime(Year, Month, 1); //gets 1st day of the month
-
+            DateTime temp;
             int days = DateTime.DaysInMonth(Year, Month); //gets the number of days in a month
 
             int dayofWeek = Convert.ToInt32(startofthemonth.DayOfWeek.ToString("d")) + 1; //converts the days of months to an interger value
@@ -97,7 +98,8 @@ namespace PosRudeTimeNew
             }
             for (int i = 1; i <= days; i++)
             {
-                UserControlDays ucDays = new UserControlDays();
+                temp = new DateTime(Year, Month, i);
+                UserControlDays ucDays = new UserControlDays(temp);
                 ucDays.day(i);
                 daycontainer.Controls.Add(ucDays);
             }
@@ -127,7 +129,7 @@ namespace PosRudeTimeNew
             Yr.Text = Year.ToString();
 
             DateTime startofthemonth = new DateTime(Year, Month, 1); //gets 1st day of the month
-
+            DateTime temp;
             int days = DateTime.DaysInMonth(Year, Month); //gets the number of days in a month
 
             int dayofWeek = Convert.ToInt32(startofthemonth.DayOfWeek.ToString("d")) + 1; //converts the days of months to an interger value
@@ -140,7 +142,8 @@ namespace PosRudeTimeNew
             }
             for (int i = 1; i <= days; i++)
             {
-                UserControlDays ucDays = new UserControlDays();
+                temp = new DateTime(Year, Month, i);
+                UserControlDays ucDays = new UserControlDays(temp);
                 ucDays.day(i);
                 daycontainer.Controls.Add(ucDays);
             }
