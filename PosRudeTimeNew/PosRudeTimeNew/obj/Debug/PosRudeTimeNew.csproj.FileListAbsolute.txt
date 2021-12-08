@@ -25,4 +25,4 @@ C:\Users\DSU Student\Documents\Fall 2021\Software Engineering\TimeManagement\Pos
 C:\Users\DSU Student\Documents\Fall 2021\Software Engineering\TimeManagement\PosRudeTimeNew\PosRudeTimeNew\bin\Debug\PosRudeTimeNew.exe.config
 C:\Users\DSU Student\Documents\Fall 2021\Software Engineering\TimeManagement\PosRudeTimeNew\PosRudeTimeNew\bin\Debug\PosRudeTimeNew.exe
 C:\Users\DSU Student\Documents\Fall 2021\Software Engineering\TimeManagement\PosRudeTimeNew\PosRudeTimeNew\bin\Debug\PosRudeTimeNew.pdb
-C:\Users\DSU Student\Documents\Fall 2021\Software Engineering\TimeManagement\PosRudeTimeNew\PosRudeTimeNew\obj\Debug\PosRudeTimeNew.csproj.SuggestedBindingRedirects.cache
+C:\Users\DSU Student\Documents\Fall 2021\Software Engineering\TimeManagement\PosRudeTimeNew\PosRudeTimeNew\obj\Debug\PosRudeTimeNew.csproj.AssemblyReference.cache

@@ -28,7 +28,7 @@ namespace PosRudeTimeNew
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent(DateTime Start)
+        private void InitializeComponent()
         {
             this.TimeBlockIntLabel = new System.Windows.Forms.Label();
             this.StartDate = new System.Windows.Forms.Label();
@@ -90,7 +90,6 @@ namespace PosRudeTimeNew
             this.EnterStartDate.Name = "EnterStartDate";
             this.EnterStartDate.Size = new System.Drawing.Size(182, 24);
             this.EnterStartDate.TabIndex = 3;
-            this.EnterStartDate.Value = Start;
             // 
             // EnterEndDate
             // 

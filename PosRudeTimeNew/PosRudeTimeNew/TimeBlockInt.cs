@@ -16,7 +16,8 @@ namespace PosRudeTimeNew
 
         public TimeBlockInt(DateTime recievedFromCalender)
         {
-            InitializeComponent(recievedFromCalender);
+            InitializeComponent();
+            this.EnterStartDate.Value = recievedFromCalender;
         }
 
         private void TimeBlockInt_Load(object sender, EventArgs e)
