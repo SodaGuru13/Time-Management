@@ -43,7 +43,7 @@ namespace PosRudeTimeNew
             this.Description = new System.Windows.Forms.Label();
             this.DescriptionTextBox = new System.Windows.Forms.TextBox();
             this.Cancel = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Add = new System.Windows.Forms.Button();
             this.Location = new System.Windows.Forms.Label();
             this.LocationTextBox = new System.Windows.Forms.TextBox();
             this.Previous = new System.Windows.Forms.Button();
@@ -172,17 +172,17 @@ namespace PosRudeTimeNew
             this.Cancel.UseVisualStyleBackColor = true;
             this.Cancel.Click += new System.EventHandler(this.Cancel_Click);
             // 
-            // button1
+            // Add
             // 
-            this.button1.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.button1.Location = new System.Drawing.Point(857, 474);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 27);
-            this.button1.TabIndex = 12;
-            this.button1.Text = "Add";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Add.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.Add.Location = new System.Drawing.Point(857, 474);
+            this.Add.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Add.Name = "Add";
+            this.Add.Size = new System.Drawing.Size(75, 27);
+            this.Add.TabIndex = 12;
+            this.Add.Text = "Add";
+            this.Add.UseVisualStyleBackColor = true;
+            this.Add.Click += new System.EventHandler(this.Add_Click);
             // 
             // Location
             // 
@@ -235,7 +235,7 @@ namespace PosRudeTimeNew
             this.Controls.Add(this.Previous);
             this.Controls.Add(this.LocationTextBox);
             this.Controls.Add(this.Location);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Add);
             this.Controls.Add(this.Cancel);
             this.Controls.Add(this.DescriptionTextBox);
             this.Controls.Add(this.Description);
@@ -271,7 +271,7 @@ namespace PosRudeTimeNew
         private System.Windows.Forms.Label Description;
         private System.Windows.Forms.TextBox DescriptionTextBox;
         private System.Windows.Forms.Button Cancel;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Add;
         private System.Windows.Forms.Label Location;
         private System.Windows.Forms.TextBox LocationTextBox;
         private System.Windows.Forms.Button Previous;
