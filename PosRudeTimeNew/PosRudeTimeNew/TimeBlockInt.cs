@@ -18,6 +18,7 @@ namespace PosRudeTimeNew
         {
             InitializeComponent();
             this.EnterStartDate.Value = recievedFromCalender;
+            this.EnterEndDate.Value = recievedFromCalender;
         }
 
         private void TimeBlockInt_Load(object sender, EventArgs e)
@@ -33,6 +34,11 @@ namespace PosRudeTimeNew
         private void MnDyYr_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void Cancel_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
