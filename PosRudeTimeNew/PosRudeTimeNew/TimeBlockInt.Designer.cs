@@ -48,6 +48,8 @@ namespace PosRudeTimeNew
             this.LocationTextBox = new System.Windows.Forms.TextBox();
             this.Previous = new System.Windows.Forms.Button();
             this.Next = new System.Windows.Forms.Button();
+            this.NameText = new System.Windows.Forms.TextBox();
+            this.Name = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // TimeBlockIntLabel
@@ -225,12 +227,32 @@ namespace PosRudeTimeNew
             this.Next.Text = "Next";
             this.Next.UseVisualStyleBackColor = true;
             // 
+            // NameText
+            // 
+            this.NameText.Location = new System.Drawing.Point(641, 376);
+            this.NameText.Multiline = true;
+            this.NameText.Name = "NameText";
+            this.NameText.Size = new System.Drawing.Size(278, 48);
+            this.NameText.TabIndex = 17;
+            // 
+            // Name
+            // 
+            this.Name.AutoSize = true;
+            this.Name.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Underline);
+            this.Name.Location = new System.Drawing.Point(639, 337);
+            this.Name.Name = "Name";
+            this.Name.Size = new System.Drawing.Size(62, 24);
+            this.Name.TabIndex = 18;
+            this.Name.Text = "Name";
+            // 
             // TimeBlockInt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.Cancel;
             this.ClientSize = new System.Drawing.Size(971, 524);
+            this.Controls.Add(this.Name);
+            this.Controls.Add(this.NameText);
             this.Controls.Add(this.Next);
             this.Controls.Add(this.Previous);
             this.Controls.Add(this.LocationTextBox);
@@ -276,5 +298,7 @@ namespace PosRudeTimeNew
         private System.Windows.Forms.TextBox LocationTextBox;
         private System.Windows.Forms.Button Previous;
         private System.Windows.Forms.Button Next;
+        private TextBox NameText;
+        private Label Name;
     }
 }

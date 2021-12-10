@@ -43,7 +43,10 @@ namespace PosRudeTimeNew
         {
             DateTime start = this.EnterStartDate.Value.Add(this.EnterStart.Value.TimeOfDay);
             DateTime end = this.EnterEndDate.Value.Add(this.EnterEnd.Value.TimeOfDay);
-            
+            string name = this.NameText.Text;
+            string description = this.DescriptionTextBox.Text;
+            string location = this.LocationTextBox.Text;
+
         }
     }
 }
