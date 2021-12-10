@@ -1,16 +1,9 @@
 [
   {
-    "StartTime": "2002-03-01T07:00:00",
-    "EndTime": "2003-03-01T07:15:00",
-    "Name": "test user",
-    "Location": "somewhere",
-    "Description": "stuff goes here"
-  },
-  {
-    "StartTime": "2005-05-05T05:00:00",
-    "EndTime": "2006-05-05T05:15:00",
-    "Name": "test user2",
-    "Location": "somewhere else",
-    "Description": "stuff still goes here"
+    "StartTime": "2021-12-01T16:47:27.3192381",
+    "EndTime": "2021-12-01T16:47:27.3057603",
+    "Name": "Boooger",
+    "Location": "Camden Ave",
+    "Description": "Happy Days"
   }
 ]

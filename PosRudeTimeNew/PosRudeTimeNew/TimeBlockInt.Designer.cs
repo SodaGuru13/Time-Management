@@ -44,12 +44,12 @@ namespace PosRudeTimeNew
             this.DescriptionTextBox = new System.Windows.Forms.TextBox();
             this.Cancel = new System.Windows.Forms.Button();
             this.Add = new System.Windows.Forms.Button();
-            this.Location = new System.Windows.Forms.Label();
+            this.LocationText = new System.Windows.Forms.Label();
             this.LocationTextBox = new System.Windows.Forms.TextBox();
             this.Previous = new System.Windows.Forms.Button();
             this.Next = new System.Windows.Forms.Button();
             this.NameText = new System.Windows.Forms.TextBox();
-            this.Name = new System.Windows.Forms.Label();
+            this.NameLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // TimeBlockIntLabel
@@ -186,15 +186,15 @@ namespace PosRudeTimeNew
             this.Add.UseVisualStyleBackColor = true;
             this.Add.Click += new System.EventHandler(this.Add_Click);
             // 
-            // Location
+            // LocationText
             // 
-            this.Location.AutoSize = true;
-            this.Location.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Underline);
-            this.Location.Location = new System.Drawing.Point(637, 194);
-            this.Location.Name = "Location";
-            this.Location.Size = new System.Drawing.Size(85, 24);
-            this.Location.TabIndex = 13;
-            this.Location.Text = "Location";
+            this.LocationText.AutoSize = true;
+            this.LocationText.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Underline);
+            this.LocationText.Location = new System.Drawing.Point(637, 194);
+            this.LocationText.Name = "LocationText";
+            this.LocationText.Size = new System.Drawing.Size(85, 24);
+            this.LocationText.TabIndex = 13;
+            this.LocationText.Text = "Location";
             // 
             // LocationTextBox
             // 
@@ -235,15 +235,15 @@ namespace PosRudeTimeNew
             this.NameText.Size = new System.Drawing.Size(278, 48);
             this.NameText.TabIndex = 17;
             // 
-            // Name
+            // NameLabel
             // 
-            this.Name.AutoSize = true;
-            this.Name.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Underline);
-            this.Name.Location = new System.Drawing.Point(639, 337);
-            this.Name.Name = "Name";
-            this.Name.Size = new System.Drawing.Size(62, 24);
-            this.Name.TabIndex = 18;
-            this.Name.Text = "Name";
+            this.NameLabel.AutoSize = true;
+            this.NameLabel.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Underline);
+            this.NameLabel.Location = new System.Drawing.Point(639, 337);
+            this.NameLabel.Name = "NameLabel";
+            this.NameLabel.Size = new System.Drawing.Size(62, 24);
+            this.NameLabel.TabIndex = 18;
+            this.NameLabel.Text = "Name";
             // 
             // TimeBlockInt
             // 
@@ -251,12 +251,12 @@ namespace PosRudeTimeNew
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.Cancel;
             this.ClientSize = new System.Drawing.Size(971, 524);
-            this.Controls.Add(this.Name);
+            this.Controls.Add(this.NameLabel);
             this.Controls.Add(this.NameText);
             this.Controls.Add(this.Next);
             this.Controls.Add(this.Previous);
             this.Controls.Add(this.LocationTextBox);
-            this.Controls.Add(this.Location);
+            this.Controls.Add(this.LocationText);
             this.Controls.Add(this.Add);
             this.Controls.Add(this.Cancel);
             this.Controls.Add(this.DescriptionTextBox);
@@ -294,11 +294,11 @@ namespace PosRudeTimeNew
         private System.Windows.Forms.TextBox DescriptionTextBox;
         private System.Windows.Forms.Button Cancel;
         private System.Windows.Forms.Button Add;
-        private System.Windows.Forms.Label Location;
+        private System.Windows.Forms.Label LocationText;
         private System.Windows.Forms.TextBox LocationTextBox;
         private System.Windows.Forms.Button Previous;
         private System.Windows.Forms.Button Next;
         private TextBox NameText;
-        private Label Name;
+        private Label NameLabel;
     }
 }

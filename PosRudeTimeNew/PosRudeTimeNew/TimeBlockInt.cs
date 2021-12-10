@@ -46,7 +46,11 @@ namespace PosRudeTimeNew
             string name = this.NameText.Text;
             string description = this.DescriptionTextBox.Text;
             string location = this.LocationTextBox.Text;
-
+            TimeBlock.AddBlock(timeBlockList, start, end, name, location, description);
+            foreach(TimeBlock timeBlock in timeBlockList)
+            {
+                Console.WriteLine(timeBlock.Name + "\n" + timeBlock.Description + "\n" + timeBlock.Location + "\n" + timeBlock.StartTime.ToLongDateString() + "\n" + timeBlock.EndTime.ToLongDateString());
+            }
         }
     }
 }
