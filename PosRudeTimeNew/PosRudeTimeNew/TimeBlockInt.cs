@@ -24,10 +24,6 @@ namespace PosRudeTimeNew
             {
                 timeBlockList.Add(turn);
             }
-            foreach(TimeBlock timeBlock in timeBlockList)
-            {
-                Console.WriteLine(timeBlock.StartTime);
-            }
         }
 
         private void TimeBlockInt_Load(object sender, EventArgs e)
@@ -45,7 +41,9 @@ namespace PosRudeTimeNew
 
         private void Add_Click(object sender, EventArgs e)
         {
-
+            DateTime start = this.EnterStartDate.Value.Add(this.EnterStart.Value.TimeOfDay);
+            DateTime end = this.EnterEndDate.Value.Add(this.EnterEnd.Value.TimeOfDay);
+            
         }
     }
 }
