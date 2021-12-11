@@ -13,6 +13,7 @@ namespace PosRudeTimeNew
     public partial class TimeBlockInt : Form
     {
         private List<TimeBlock> timeBlockList = new List<TimeBlock>();
+        private int element = 0;
         public TimeBlockInt(DateTime recievedFromCalender)
         {
             InitializeComponent();
@@ -68,15 +69,23 @@ namespace PosRudeTimeNew
             string location = this.LocationTextBox.Text;
             TimeBlock.EditBlock(timeBlockList, start, start, end, name, location, description);
         }
+        private List<TimeBlock> SortedList()
+        {
+            IEnumerable<TimeBlock> ITimeBlock = timeBlockList.OrderBy(timeBlock => timeBlock.StartTime);
+            return ITimeBlock.ToList();
+        }
 
         private void Next_Click(object sender, EventArgs e)
         {
+            List<TimeBlock> sortedTime = SortedList();
+            this.EnterStartDate.Value = sortedTime[element].StartTime.Date;
+            this.EnterStart.Value = sortedTime[element].StartTime.ToUniversalTime();
 
         }
 
         private void Previous_Click(object sender, EventArgs e)
         {
-
+            List<TimeBlock> sortedTime = SortedList();
         }
     }
 }
