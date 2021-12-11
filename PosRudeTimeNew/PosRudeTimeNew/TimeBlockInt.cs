@@ -14,11 +14,15 @@ namespace PosRudeTimeNew
     {
         private List<TimeBlock> timeBlockList = new List<TimeBlock>();
         private int element = 0;
+        private DateTime AddTime;
         public TimeBlockInt(DateTime recievedFromCalender)
         {
             InitializeComponent();
+            this.AddTime = recievedFromCalender;
             this.EnterStartDate.Value = recievedFromCalender;
             this.EnterEndDate.Value = recievedFromCalender;
+            this.EnterStart.Value = recievedFromCalender;
+            this.EnterEnd.Value = recievedFromCalender;
             List<TimeBlock> returned = TimeBlock.Deserialize();
             foreach(TimeBlock turn in returned)
             {
@@ -78,14 +82,60 @@ namespace PosRudeTimeNew
         private void Next_Click(object sender, EventArgs e)
         {
             List<TimeBlock> sortedTime = SortedList();
-            this.EnterStartDate.Value = sortedTime[element].StartTime.Date;
-            this.EnterStart.Value = sortedTime[element].StartTime.ToUniversalTime();
-
+            if (element >= sortedTime.Count)
+            {
+                return;
+            }
+            else if (this.EnterStartDate.Value == AddTime)
+            {
+                this.EnterStartDate.Value = sortedTime[element].StartTime.Date;
+                this.EnterStart.Value = sortedTime[element].StartTime;
+                this.EnterEndDate.Value = sortedTime[element].EndTime.Date;
+                this.EnterEnd.Value = sortedTime[element].EndTime;
+                this.NameText.Text = sortedTime[element].Name;
+                this.DescriptionTextBox.Text = sortedTime[element].Description;
+                this.LocationTextBox.Text = sortedTime[element].Location;
+            }
+            else
+            {
+                ++element;
+                this.EnterStartDate.Value = sortedTime[element].StartTime.Date;
+                this.EnterStart.Value = sortedTime[element].StartTime;
+                this.EnterEndDate.Value = sortedTime[element].EndTime.Date;
+                this.EnterEnd.Value = sortedTime[element].EndTime;
+                this.NameText.Text = sortedTime[element].Name;
+                this.DescriptionTextBox.Text = sortedTime[element].Description;
+                this.LocationTextBox.Text = sortedTime[element].Location;
+            }
         }
 
         private void Previous_Click(object sender, EventArgs e)
         {
             List<TimeBlock> sortedTime = SortedList();
+            if (element <= 0)
+            {
+                this.EnterStartDate.Value = AddTime;
+                this.EnterStart.Value = AddTime;
+                this.EnterEndDate.Value = AddTime;
+                this.EnterEnd.Value = AddTime;
+                this.NameText.Text = "";
+                this.DescriptionTextBox.Text = "";
+                this.LocationTextBox.Text = "";
+                return;
+            }
+            else
+            {
+                --element;
+                this.EnterStartDate.Value = sortedTime[element].StartTime.Date;
+                // something to keep track of
+                this.EnterStart.Value = sortedTime[element].StartTime;
+                this.EnterEndDate.Value = sortedTime[element].EndTime.Date;
+                // something to keep track of
+                this.EnterEnd.Value = sortedTime[element].EndTime;
+                this.NameText.Text = sortedTime[element].Name;
+                this.DescriptionTextBox.Text = sortedTime[element].Description;
+                this.LocationTextBox.Text = sortedTime[element].Location;
+            }
         }
     }
 }
