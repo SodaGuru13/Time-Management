@@ -50,6 +50,8 @@ namespace PosRudeTimeNew
             this.Next = new System.Windows.Forms.Button();
             this.NameText = new System.Windows.Forms.TextBox();
             this.NameLabel = new System.Windows.Forms.Label();
+            this.DeleteButton = new System.Windows.Forms.Button();
+            this.EditButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // TimeBlockIntLabel
@@ -215,6 +217,7 @@ namespace PosRudeTimeNew
             this.Previous.TabIndex = 15;
             this.Previous.Text = "Previous";
             this.Previous.UseVisualStyleBackColor = true;
+            this.Previous.Click += new System.EventHandler(this.Previous_Click);
             // 
             // Next
             // 
@@ -226,6 +229,7 @@ namespace PosRudeTimeNew
             this.Next.TabIndex = 16;
             this.Next.Text = "Next";
             this.Next.UseVisualStyleBackColor = true;
+            this.Next.Click += new System.EventHandler(this.Next_Click);
             // 
             // NameText
             // 
@@ -245,12 +249,36 @@ namespace PosRudeTimeNew
             this.NameLabel.TabIndex = 18;
             this.NameLabel.Text = "Name";
             // 
+            // DeleteButton
+            // 
+            this.DeleteButton.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.DeleteButton.Location = new System.Drawing.Point(660, 474);
+            this.DeleteButton.Name = "DeleteButton";
+            this.DeleteButton.Size = new System.Drawing.Size(75, 27);
+            this.DeleteButton.TabIndex = 19;
+            this.DeleteButton.Text = "Delete";
+            this.DeleteButton.UseVisualStyleBackColor = true;
+            this.DeleteButton.Click += new System.EventHandler(this.DeleteButton_Click);
+            // 
+            // EditButton
+            // 
+            this.EditButton.Font = new System.Drawing.Font("Tahoma", 10.2F);
+            this.EditButton.Location = new System.Drawing.Point(566, 474);
+            this.EditButton.Name = "EditButton";
+            this.EditButton.Size = new System.Drawing.Size(75, 27);
+            this.EditButton.TabIndex = 20;
+            this.EditButton.Text = "Edit";
+            this.EditButton.UseVisualStyleBackColor = true;
+            this.EditButton.Click += new System.EventHandler(this.EditButton_Click);
+            // 
             // TimeBlockInt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.Cancel;
             this.ClientSize = new System.Drawing.Size(971, 524);
+            this.Controls.Add(this.EditButton);
+            this.Controls.Add(this.DeleteButton);
             this.Controls.Add(this.NameLabel);
             this.Controls.Add(this.NameText);
             this.Controls.Add(this.Next);
@@ -300,5 +328,7 @@ namespace PosRudeTimeNew
         private System.Windows.Forms.Button Next;
         private TextBox NameText;
         private Label NameLabel;
+        private Button DeleteButton;
+        private Button EditButton;
     }
 }
