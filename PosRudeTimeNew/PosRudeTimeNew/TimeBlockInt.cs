@@ -46,15 +46,18 @@ namespace PosRudeTimeNew
 
         private void Add_Click(object sender, EventArgs e)
         {
-            DateTime start = this.EnterStartDate.Value.Add(this.EnterStart.Value.TimeOfDay);
-            DateTime end = this.EnterEndDate.Value.Add(this.EnterEnd.Value.TimeOfDay);
-            string name = this.NameText.Text;
-            string description = this.DescriptionTextBox.Text;
-            string location = this.LocationTextBox.Text;
-            TimeBlock.AddBlock(timeBlockList, start, end, name, location, description);
-            foreach(TimeBlock timeBlock in timeBlockList)
+            if (this.EnterEndDate.Value.Date == this.EnterStartDate.Value.Date)
             {
-                Console.WriteLine(timeBlock.Name + "\n" + timeBlock.Description + "\n" + timeBlock.Location + "\n" + timeBlock.StartTime.ToLongDateString() + "\n" + timeBlock.EndTime.ToLongDateString());
+                DateTime start = this.EnterStartDate.Value.Add(this.EnterStart.Value.TimeOfDay);
+                DateTime end = this.EnterEndDate.Value.Add(this.EnterEnd.Value.TimeOfDay);
+                string name = this.NameText.Text;
+                string description = this.DescriptionTextBox.Text;
+                string location = this.LocationTextBox.Text;
+                TimeBlock.AddBlock(timeBlockList, start, end, name, location, description);
+            }
+            else
+            {
+                DateTime start = this.EnterStartDate.Value;
             }
         }
 
@@ -127,10 +130,8 @@ namespace PosRudeTimeNew
             {
                 --element;
                 this.EnterStartDate.Value = sortedTime[element].StartTime.Date;
-                // something to keep track of
                 this.EnterStart.Value = sortedTime[element].StartTime;
                 this.EnterEndDate.Value = sortedTime[element].EndTime.Date;
-                // something to keep track of
                 this.EnterEnd.Value = sortedTime[element].EndTime;
                 this.NameText.Text = sortedTime[element].Name;
                 this.DescriptionTextBox.Text = sortedTime[element].Description;
