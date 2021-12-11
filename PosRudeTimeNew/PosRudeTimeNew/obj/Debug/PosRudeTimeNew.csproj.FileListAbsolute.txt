@@ -26,3 +26,20 @@ C:\Users\DSU Student\Documents\Fall 2021\Software Engineering\TimeManagement\Pos
 C:\Users\DSU Student\Documents\Fall 2021\Software Engineering\TimeManagement\PosRudeTimeNew\PosRudeTimeNew\bin\Debug\PosRudeTimeNew.exe.config
 C:\Users\DSU Student\Documents\Fall 2021\Software Engineering\TimeManagement\PosRudeTimeNew\PosRudeTimeNew\bin\Debug\PosRudeTimeNew.exe
 C:\Users\DSU Student\Documents\Fall 2021\Software Engineering\TimeManagement\PosRudeTimeNew\PosRudeTimeNew\bin\Debug\PosRudeTimeNew.pdb
+C:\Users\DSU Student\Source\Repos\SodaGuru13\Time-Management\PosRudeTimeNew\PosRudeTimeNew\bin\Debug\PosRudeTimeNew.exe.config
+C:\Users\DSU Student\Source\Repos\SodaGuru13\Time-Management\PosRudeTimeNew\PosRudeTimeNew\bin\Debug\PosRudeTimeNew.exe
+C:\Users\DSU Student\Source\Repos\SodaGuru13\Time-Management\PosRudeTimeNew\PosRudeTimeNew\bin\Debug\PosRudeTimeNew.pdb
+C:\Users\DSU Student\Source\Repos\SodaGuru13\Time-Management\PosRudeTimeNew\PosRudeTimeNew\obj\Debug\PosRudeTimeNew.csprojAssemblyReference.cache
+C:\Users\DSU Student\Source\Repos\SodaGuru13\Time-Management\PosRudeTimeNew\PosRudeTimeNew\obj\Debug\PosRudeTimeNew.Calendar.resources
+C:\Users\DSU Student\Source\Repos\SodaGuru13\Time-Management\PosRudeTimeNew\PosRudeTimeNew\obj\Debug\PosRudeTimeNew.Properties.Resources.resources
+C:\Users\DSU Student\Source\Repos\SodaGuru13\Time-Management\PosRudeTimeNew\PosRudeTimeNew\obj\Debug\PosRudeTimeNew.TimeBlockInt.resources
+C:\Users\DSU Student\Source\Repos\SodaGuru13\Time-Management\PosRudeTimeNew\PosRudeTimeNew\obj\Debug\PosRudeTimeNew.UserControlBlank.resources
+C:\Users\DSU Student\Source\Repos\SodaGuru13\Time-Management\PosRudeTimeNew\PosRudeTimeNew\obj\Debug\PosRudeTimeNew.UserControlDays.resources
+C:\Users\DSU Student\Source\Repos\SodaGuru13\Time-Management\PosRudeTimeNew\PosRudeTimeNew\obj\Debug\PosRudeTimeNew.csproj.GenerateResource.cache
+C:\Users\DSU Student\Source\Repos\SodaGuru13\Time-Management\PosRudeTimeNew\PosRudeTimeNew\obj\Debug\PosRudeTimeNew.csproj.CoreCompileInputs.cache
+C:\Users\DSU Student\Source\Repos\SodaGuru13\Time-Management\PosRudeTimeNew\PosRudeTimeNew\obj\Debug\PosRudeTimeNew.exe
+C:\Users\DSU Student\Source\Repos\SodaGuru13\Time-Management\PosRudeTimeNew\PosRudeTimeNew\obj\Debug\PosRudeTimeNew.pdb
+C:\Users\DSU Student\Source\Repos\SodaGuru13\Time-Management\PosRudeTimeNew\PosRudeTimeNew\bin\Debug\Microsoft.Toolkit.Uwp.Notifications.dll
+C:\Users\DSU Student\Source\Repos\SodaGuru13\Time-Management\PosRudeTimeNew\PosRudeTimeNew\bin\Debug\System.ValueTuple.dll
+C:\Users\DSU Student\Source\Repos\SodaGuru13\Time-Management\PosRudeTimeNew\PosRudeTimeNew\bin\Debug\Microsoft.Toolkit.Uwp.Notifications.pdb
+C:\Users\DSU Student\Source\Repos\SodaGuru13\Time-Management\PosRudeTimeNew\PosRudeTimeNew\obj\Debug\PosRudeTimeNew.csproj.CopyComplete

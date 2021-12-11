@@ -52,10 +52,9 @@ namespace PosRudeTimeNew
             // 
             this.TimeBlockIntLabel.AutoSize = true;
             this.TimeBlockIntLabel.Font = new System.Drawing.Font("Palatino Linotype", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TimeBlockIntLabel.Location = new System.Drawing.Point(320, 29);
-            this.TimeBlockIntLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.TimeBlockIntLabel.Location = new System.Drawing.Point(427, 36);
             this.TimeBlockIntLabel.Name = "TimeBlockIntLabel";
-            this.TimeBlockIntLabel.Size = new System.Drawing.Size(128, 29);
+            this.TimeBlockIntLabel.Size = new System.Drawing.Size(164, 38);
             this.TimeBlockIntLabel.TabIndex = 0;
             this.TimeBlockIntLabel.Text = "Time Block";
             // 
@@ -63,10 +62,9 @@ namespace PosRudeTimeNew
             // 
             this.StartDate.AutoSize = true;
             this.StartDate.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StartDate.Location = new System.Drawing.Point(150, 81);
-            this.StartDate.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.StartDate.Location = new System.Drawing.Point(200, 100);
             this.StartDate.Name = "StartDate";
-            this.StartDate.Size = new System.Drawing.Size(79, 19);
+            this.StartDate.Size = new System.Drawing.Size(102, 24);
             this.StartDate.TabIndex = 1;
             this.StartDate.Text = "Start Date";
             // 
@@ -74,39 +72,37 @@ namespace PosRudeTimeNew
             // 
             this.EndDate.AutoSize = true;
             this.EndDate.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EndDate.Location = new System.Drawing.Point(525, 81);
-            this.EndDate.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.EndDate.Location = new System.Drawing.Point(700, 100);
             this.EndDate.Name = "EndDate";
-            this.EndDate.Size = new System.Drawing.Size(73, 19);
+            this.EndDate.Size = new System.Drawing.Size(92, 24);
             this.EndDate.TabIndex = 2;
             this.EndDate.Text = "End Date";
             // 
             // EnterStartDate
             // 
             this.EnterStartDate.Font = new System.Drawing.Font("Yu Gothic", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EnterStartDate.Location = new System.Drawing.Point(105, 114);
-            this.EnterStartDate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.EnterStartDate.Location = new System.Drawing.Point(140, 140);
+            this.EnterStartDate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.EnterStartDate.Name = "EnterStartDate";
-            this.EnterStartDate.Size = new System.Drawing.Size(182, 24);
+            this.EnterStartDate.Size = new System.Drawing.Size(241, 28);
             this.EnterStartDate.TabIndex = 3;
             // 
             // EnterEndDate
             // 
             this.EnterEndDate.Font = new System.Drawing.Font("Yu Gothic", 7.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.EnterEndDate.Location = new System.Drawing.Point(482, 114);
-            this.EnterEndDate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.EnterEndDate.Location = new System.Drawing.Point(643, 140);
+            this.EnterEndDate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.EnterEndDate.Name = "EnterEndDate";
-            this.EnterEndDate.Size = new System.Drawing.Size(190, 24);
+            this.EnterEndDate.Size = new System.Drawing.Size(252, 28);
             this.EnterEndDate.TabIndex = 4;
             // 
             // StartTime
             // 
             this.StartTime.AutoSize = true;
             this.StartTime.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.StartTime.Location = new System.Drawing.Point(345, 158);
-            this.StartTime.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.StartTime.Location = new System.Drawing.Point(460, 194);
             this.StartTime.Name = "StartTime";
-            this.StartTime.Size = new System.Drawing.Size(83, 19);
+            this.StartTime.Size = new System.Drawing.Size(104, 24);
             this.StartTime.TabIndex = 5;
             this.StartTime.Text = "Start Time";
             // 
@@ -114,21 +110,20 @@ namespace PosRudeTimeNew
             // 
             this.EnterStart.Font = new System.Drawing.Font("Yu Gothic", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.EnterStart.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.EnterStart.Location = new System.Drawing.Point(348, 191);
-            this.EnterStart.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.EnterStart.Location = new System.Drawing.Point(464, 235);
+            this.EnterStart.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.EnterStart.Name = "EnterStart";
             this.EnterStart.ShowUpDown = true;
-            this.EnterStart.Size = new System.Drawing.Size(81, 24);
+            this.EnterStart.Size = new System.Drawing.Size(107, 28);
             this.EnterStart.TabIndex = 6;
             // 
             // EndTime
             // 
             this.EndTime.AutoSize = true;
             this.EndTime.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Underline);
-            this.EndTime.Location = new System.Drawing.Point(345, 228);
-            this.EndTime.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.EndTime.Location = new System.Drawing.Point(460, 281);
             this.EndTime.Name = "EndTime";
-            this.EndTime.Size = new System.Drawing.Size(77, 19);
+            this.EndTime.Size = new System.Drawing.Size(94, 24);
             this.EndTime.TabIndex = 7;
             this.EndTime.Text = "End Time";
             // 
@@ -136,51 +131,52 @@ namespace PosRudeTimeNew
             // 
             this.EnterEnd.Font = new System.Drawing.Font("Yu Gothic", 7.8F, System.Drawing.FontStyle.Bold);
             this.EnterEnd.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.EnterEnd.Location = new System.Drawing.Point(348, 262);
-            this.EnterEnd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.EnterEnd.Location = new System.Drawing.Point(464, 322);
+            this.EnterEnd.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.EnterEnd.Name = "EnterEnd";
             this.EnterEnd.ShowUpDown = true;
-            this.EnterEnd.Size = new System.Drawing.Size(81, 24);
+            this.EnterEnd.Size = new System.Drawing.Size(107, 28);
             this.EnterEnd.TabIndex = 8;
             // 
             // Description
             // 
             this.Description.AutoSize = true;
             this.Description.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Underline);
-            this.Description.Location = new System.Drawing.Point(26, 158);
-            this.Description.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Description.Location = new System.Drawing.Point(35, 194);
             this.Description.Name = "Description";
-            this.Description.Size = new System.Drawing.Size(88, 19);
+            this.Description.Size = new System.Drawing.Size(110, 24);
             this.Description.TabIndex = 9;
             this.Description.Text = "Description";
             // 
             // DescriptionTextBox
             // 
-            this.DescriptionTextBox.Location = new System.Drawing.Point(28, 191);
-            this.DescriptionTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DescriptionTextBox.Location = new System.Drawing.Point(37, 235);
+            this.DescriptionTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.DescriptionTextBox.Multiline = true;
             this.DescriptionTextBox.Name = "DescriptionTextBox";
-            this.DescriptionTextBox.Size = new System.Drawing.Size(283, 182);
+            this.DescriptionTextBox.Size = new System.Drawing.Size(376, 223);
             this.DescriptionTextBox.TabIndex = 10;
+            this.DescriptionTextBox.TextChanged += new System.EventHandler(this.DescriptionTextBox_TextChanged);
             // 
             // Cancel
             // 
             this.Cancel.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Cancel.Location = new System.Drawing.Point(566, 385);
-            this.Cancel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Cancel.Location = new System.Drawing.Point(755, 474);
+            this.Cancel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Cancel.Name = "Cancel";
-            this.Cancel.Size = new System.Drawing.Size(61, 22);
+            this.Cancel.Size = new System.Drawing.Size(81, 27);
             this.Cancel.TabIndex = 11;
             this.Cancel.Text = "Cancel";
             this.Cancel.UseVisualStyleBackColor = true;
+            this.Cancel.Click += new System.EventHandler(this.Cancel_Click);
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.button1.Location = new System.Drawing.Point(643, 385);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Location = new System.Drawing.Point(857, 474);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(56, 22);
+            this.button1.Size = new System.Drawing.Size(75, 27);
             this.button1.TabIndex = 12;
             this.button1.Text = "Add";
             this.button1.UseVisualStyleBackColor = true;
@@ -190,29 +186,28 @@ namespace PosRudeTimeNew
             // 
             this.Location.AutoSize = true;
             this.Location.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Underline);
-            this.Location.Location = new System.Drawing.Point(478, 158);
-            this.Location.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Location.Location = new System.Drawing.Point(637, 194);
             this.Location.Name = "Location";
-            this.Location.Size = new System.Drawing.Size(68, 19);
+            this.Location.Size = new System.Drawing.Size(85, 24);
             this.Location.TabIndex = 13;
             this.Location.Text = "Location";
             // 
             // LocationTextBox
             // 
-            this.LocationTextBox.Location = new System.Drawing.Point(482, 191);
-            this.LocationTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.LocationTextBox.Location = new System.Drawing.Point(643, 235);
+            this.LocationTextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.LocationTextBox.Multiline = true;
             this.LocationTextBox.Name = "LocationTextBox";
-            this.LocationTextBox.Size = new System.Drawing.Size(208, 58);
+            this.LocationTextBox.Size = new System.Drawing.Size(276, 70);
             this.LocationTextBox.TabIndex = 14;
             // 
             // Previous
             // 
             this.Previous.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.Previous.Location = new System.Drawing.Point(28, 385);
-            this.Previous.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Previous.Location = new System.Drawing.Point(37, 474);
+            this.Previous.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Previous.Name = "Previous";
-            this.Previous.Size = new System.Drawing.Size(62, 22);
+            this.Previous.Size = new System.Drawing.Size(83, 27);
             this.Previous.TabIndex = 15;
             this.Previous.Text = "Previous";
             this.Previous.UseVisualStyleBackColor = true;
@@ -220,19 +215,19 @@ namespace PosRudeTimeNew
             // Next
             // 
             this.Next.Font = new System.Drawing.Font("Tahoma", 10.2F);
-            this.Next.Location = new System.Drawing.Point(105, 385);
-            this.Next.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Next.Location = new System.Drawing.Point(140, 474);
+            this.Next.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Next.Name = "Next";
-            this.Next.Size = new System.Drawing.Size(56, 22);
+            this.Next.Size = new System.Drawing.Size(75, 27);
             this.Next.TabIndex = 16;
             this.Next.Text = "Next";
             this.Next.UseVisualStyleBackColor = true;
             // 
             // TimeBlockInt
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(728, 426);
+            this.ClientSize = new System.Drawing.Size(971, 524);
             this.Controls.Add(this.Next);
             this.Controls.Add(this.Previous);
             this.Controls.Add(this.LocationTextBox);
@@ -250,7 +245,7 @@ namespace PosRudeTimeNew
             this.Controls.Add(this.EndDate);
             this.Controls.Add(this.StartDate);
             this.Controls.Add(this.TimeBlockIntLabel);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "TimeBlockInt";
             this.Text = "Event";
             this.Load += new System.EventHandler(this.TimeBlockInt_Load);
