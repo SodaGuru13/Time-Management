@@ -43,6 +43,13 @@ namespace PosRudeTimeNew
         {
             this.Close();
         }
+        private static IEnumerable<DateTime> EachCalendarDay(DateTime start, DateTime end)
+        {
+            for (var date = start.Date; date.Date <= end.Date; date = date.AddDays(1))
+            {
+                yield return date;
+            }
+        }
 
         private void Add_Click(object sender, EventArgs e)
         {
@@ -58,6 +65,14 @@ namespace PosRudeTimeNew
             else
             {
                 DateTime start = this.EnterStartDate.Value;
+                DateTime end = this.EnterEndDate.Value;
+                string name = this.NameText.Text;
+                string description = this.DescriptionTextBox.Text;
+                string location = this.LocationTextBox.Text;
+                foreach (DateTime day in EachCalendarDay(start, end))
+                {
+                    TimeBlock.AddBlock(timeBlockList, day.Add(this.EnterStart.Value.TimeOfDay), day.Add(this.EnterEnd.Value.TimeOfDay), name, location, description);
+                }
             }
         }
 
@@ -89,26 +104,16 @@ namespace PosRudeTimeNew
             {
                 return;
             }
-            else if (this.EnterStartDate.Value == AddTime)
-            {
-                this.EnterStartDate.Value = sortedTime[element].StartTime.Date;
-                this.EnterStart.Value = sortedTime[element].StartTime;
-                this.EnterEndDate.Value = sortedTime[element].EndTime.Date;
-                this.EnterEnd.Value = sortedTime[element].EndTime;
-                this.NameText.Text = sortedTime[element].Name;
-                this.DescriptionTextBox.Text = sortedTime[element].Description;
-                this.LocationTextBox.Text = sortedTime[element].Location;
-            }
             else
             {
                 ++element;
-                this.EnterStartDate.Value = sortedTime[element].StartTime.Date;
-                this.EnterStart.Value = sortedTime[element].StartTime;
-                this.EnterEndDate.Value = sortedTime[element].EndTime.Date;
-                this.EnterEnd.Value = sortedTime[element].EndTime;
-                this.NameText.Text = sortedTime[element].Name;
-                this.DescriptionTextBox.Text = sortedTime[element].Description;
-                this.LocationTextBox.Text = sortedTime[element].Location;
+                this.EnterStartDate.Value = sortedTime[element-1].StartTime.Date;
+                this.EnterStart.Value = sortedTime[element-1].StartTime;
+                this.EnterEndDate.Value = sortedTime[element-1].EndTime.Date;
+                this.EnterEnd.Value = sortedTime[element-1].EndTime;
+                this.NameText.Text = sortedTime[element-1].Name;
+                this.DescriptionTextBox.Text = sortedTime[element-1].Description;
+                this.LocationTextBox.Text = sortedTime[element-1].Location;
             }
         }
 
@@ -129,7 +134,7 @@ namespace PosRudeTimeNew
             else
             {
                 --element;
-                this.EnterStartDate.Value = sortedTime[element].StartTime.Date;
+                this.EnterStartDate.Value = sortedTime[element-1].StartTime.Date;
                 this.EnterStart.Value = sortedTime[element].StartTime;
                 this.EnterEndDate.Value = sortedTime[element].EndTime.Date;
                 this.EnterEnd.Value = sortedTime[element].EndTime;
