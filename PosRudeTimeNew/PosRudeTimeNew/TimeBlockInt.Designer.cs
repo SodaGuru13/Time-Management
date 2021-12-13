@@ -46,6 +46,8 @@ namespace PosRudeTimeNew
             this.LocationTextBox = new System.Windows.Forms.TextBox();
             this.Previous = new System.Windows.Forms.Button();
             this.Next = new System.Windows.Forms.Button();
+            this.EventNameBox = new System.Windows.Forms.TextBox();
+            this.EventName = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // TimeBlockIntLabel
@@ -86,6 +88,7 @@ namespace PosRudeTimeNew
             this.EnterStartDate.Name = "EnterStartDate";
             this.EnterStartDate.Size = new System.Drawing.Size(241, 28);
             this.EnterStartDate.TabIndex = 3;
+            this.EnterStartDate.ValueChanged += new System.EventHandler(this.EnterStartDate_ValueChanged);
             // 
             // EnterEndDate
             // 
@@ -95,6 +98,7 @@ namespace PosRudeTimeNew
             this.EnterEndDate.Name = "EnterEndDate";
             this.EnterEndDate.Size = new System.Drawing.Size(252, 28);
             this.EnterEndDate.TabIndex = 4;
+            this.EnterEndDate.Value = new System.DateTime(2021, 12, 14, 13, 9, 0, 0);
             // 
             // StartTime
             // 
@@ -116,6 +120,7 @@ namespace PosRudeTimeNew
             this.EnterStart.ShowUpDown = true;
             this.EnterStart.Size = new System.Drawing.Size(107, 28);
             this.EnterStart.TabIndex = 6;
+            this.EnterStart.Value = new System.DateTime(2021, 12, 13, 13, 9, 0, 0);
             // 
             // EndTime
             // 
@@ -223,11 +228,30 @@ namespace PosRudeTimeNew
             this.Next.Text = "Next";
             this.Next.UseVisualStyleBackColor = true;
             // 
+            // EventNameBox
+            // 
+            this.EventNameBox.Location = new System.Drawing.Point(641, 357);
+            this.EventNameBox.Name = "EventNameBox";
+            this.EventNameBox.Size = new System.Drawing.Size(278, 22);
+            this.EventNameBox.TabIndex = 17;
+            // 
+            // EventName
+            // 
+            this.EventName.AutoSize = true;
+            this.EventName.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Underline);
+            this.EventName.Location = new System.Drawing.Point(639, 322);
+            this.EventName.Name = "EventName";
+            this.EventName.Size = new System.Drawing.Size(118, 24);
+            this.EventName.TabIndex = 18;
+            this.EventName.Text = "Event Name";
+            // 
             // TimeBlockInt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(971, 524);
+            this.Controls.Add(this.EventName);
+            this.Controls.Add(this.EventNameBox);
             this.Controls.Add(this.Next);
             this.Controls.Add(this.Previous);
             this.Controls.Add(this.LocationTextBox);
@@ -273,5 +297,7 @@ namespace PosRudeTimeNew
         private System.Windows.Forms.TextBox LocationTextBox;
         private System.Windows.Forms.Button Previous;
         private System.Windows.Forms.Button Next;
+        private System.Windows.Forms.TextBox EventNameBox;
+        private System.Windows.Forms.Label EventName;
     }
 }

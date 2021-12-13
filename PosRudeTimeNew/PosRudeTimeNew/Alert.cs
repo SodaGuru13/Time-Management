@@ -17,15 +17,18 @@ namespace PosRudeTimeNew
                 .Schedule(start);
         }
 
-        public Alert (string text, DateTime start, DateTime end) //This one should allow for the end of an event if that's what we want to do
+        public Alert (string text, DateTime start, DateTime end, string name) //This one should allow for the end of an event if that's what we want to do
         {
 
             new ToastContentBuilder()
-                .AddText(text)
+                .AddText(name)
+                .AddAttributionText(text)
                 .Schedule(start);
+                //.Show(); //For testing if the data is moving correctly
 
             new ToastContentBuilder()
-                .AddText("Task Time Over: " + text)
+                .AddText("Task Time Over: " + name)
+                .AddAttributionText(text)
                 .Schedule(end);
 
         }

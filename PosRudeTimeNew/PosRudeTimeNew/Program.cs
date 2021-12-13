@@ -35,7 +35,7 @@ namespace PosRudeTimeNew
 
                 // Obtain any user input (text boxes, menu selections) from the notification
                 //ValueSet userInput = toastArgs.UserInput;
-
+                Application.Run(new EventDetails());
             };
 
             Application.EnableVisualStyles();

@@ -43,3 +43,4 @@ C:\Users\DSU Student\Source\Repos\SodaGuru13\Time-Management\PosRudeTimeNew\PosR
 C:\Users\DSU Student\Source\Repos\SodaGuru13\Time-Management\PosRudeTimeNew\PosRudeTimeNew\bin\Debug\System.ValueTuple.dll
 C:\Users\DSU Student\Source\Repos\SodaGuru13\Time-Management\PosRudeTimeNew\PosRudeTimeNew\bin\Debug\Microsoft.Toolkit.Uwp.Notifications.pdb
 C:\Users\DSU Student\Source\Repos\SodaGuru13\Time-Management\PosRudeTimeNew\PosRudeTimeNew\obj\Debug\PosRudeTimeNew.csproj.CopyComplete
+C:\Users\DSU Student\Source\Repos\SodaGuru13\Time-Management\PosRudeTimeNew\PosRudeTimeNew\obj\Debug\PosRudeTimeNew.EventDetails.resources

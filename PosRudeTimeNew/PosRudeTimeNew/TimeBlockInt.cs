@@ -27,7 +27,7 @@ namespace PosRudeTimeNew
 
         private void button1_Click(object sender, EventArgs e)
         {
-           new Alert(DescriptionTextBox.Text, EnterStart.Value, EnterEnd.Value); // Can take off end value if you you just want to have it alert at the start time
+           new Alert(DescriptionTextBox.Text, EnterStart.Value, EnterEnd.Value, EventNameBox.Text); // Can take off end value if you you just want to have it alert at the start time
         } 
 
         private void MnDyYr_TextChanged(object sender, EventArgs e)
@@ -43,6 +43,11 @@ namespace PosRudeTimeNew
         private void Cancel_Click(object sender, EventArgs e)
         {
             ToastNotificationManagerCompat.History.Clear(); // So that Cancel stops them from happening
+        }
+
+        private void EnterStartDate_ValueChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
