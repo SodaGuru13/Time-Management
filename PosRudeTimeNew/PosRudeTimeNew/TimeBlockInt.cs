@@ -102,6 +102,7 @@ namespace PosRudeTimeNew
             List<TimeBlock> sortedTime = SortedList();
             if (element >= sortedTime.Count)
             {
+                Console.WriteLine(sortedTime.Count.ToString() + element);
                 return;
             }
             else
@@ -120,6 +121,12 @@ namespace PosRudeTimeNew
         private void Previous_Click(object sender, EventArgs e)
         {
             List<TimeBlock> sortedTime = SortedList();
+            if(element > 0)
+            {
+                --element;
+            }
+
+
             if (element <= 0)
             {
                 this.EnterStartDate.Value = AddTime;
@@ -133,8 +140,7 @@ namespace PosRudeTimeNew
             }
             else
             {
-                --element;
-                this.EnterStartDate.Value = sortedTime[element-1].StartTime.Date;
+                this.EnterStartDate.Value = sortedTime[element].StartTime.Date;
                 this.EnterStart.Value = sortedTime[element].StartTime;
                 this.EnterEndDate.Value = sortedTime[element].EndTime.Date;
                 this.EnterEnd.Value = sortedTime[element].EndTime;
