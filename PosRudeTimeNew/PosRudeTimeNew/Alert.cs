@@ -25,8 +25,8 @@ namespace PosRudeTimeNew
                 .AddText(text)
                 .AddAttributionText(location)
                 .AddArgument(name)
-                //.Schedule(start);
-                .Show(); //For testing if the data is moving correctly
+                .Schedule(start);
+                //.Show(); //For testing if the data is moving correctly
 
             new ToastContentBuilder()
                 .AddText("Task Time Over: " + name)
