@@ -27,7 +27,7 @@ namespace PosRudeTimeNew
 
         private void button1_Click(object sender, EventArgs e)
         {
-           new Alert(DescriptionTextBox.Text, EnterStart.Value, EnterEnd.Value, EventNameBox.Text); // Can take off end value if you you just want to have it alert at the start time
+           new Alert(DescriptionTextBox.Text, EnterStart.Value, EnterEnd.Value, EventNameBox.Text, LocationTextBox.Text); // Can take off end value if you you just want to have it alert at the start time
         } 
 
         private void MnDyYr_TextChanged(object sender, EventArgs e)

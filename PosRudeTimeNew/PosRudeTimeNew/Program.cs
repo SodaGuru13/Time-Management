@@ -31,11 +31,11 @@ namespace PosRudeTimeNew
                 //*** Pretty sure we could use this to trigger pulling the information of the event from the json file storage
 
                 // Obtain the arguments from the notification
-                //ToastArguments args = ToastArguments.Parse(toastArgs.Argument);
+                ToastArguments args = ToastArguments.Parse(toastArgs.Argument);
 
                 // Obtain any user input (text boxes, menu selections) from the notification
                 //ValueSet userInput = toastArgs.UserInput;
-                Application.Run(new EventDetails());
+                Application.Run(new EventDetails(toastArgs.Argument));
             };
 
             Application.EnableVisualStyles();
