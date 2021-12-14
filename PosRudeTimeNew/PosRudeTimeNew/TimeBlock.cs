@@ -18,7 +18,7 @@ namespace PosRudeTimeNew
 
         public static void Serialize(List<TimeBlock> timeBlock)
         {
-            string fileName = AppDomain.CurrentDomain.BaseDirectory + "../../../RuDeTimeDates.json";
+            string fileName = AppDomain.CurrentDomain.BaseDirectory + "/RuDeTimeDates.json";
 
             File.WriteAllText(fileName, JsonConvert.SerializeObject(timeBlock, Formatting.Indented));
         }
@@ -27,7 +27,7 @@ namespace PosRudeTimeNew
         {
             var timeBlock = new List<TimeBlock>();
 
-            string fileName = AppDomain.CurrentDomain.BaseDirectory + "../../../RuDeTimeDates.json";
+            string fileName = AppDomain.CurrentDomain.BaseDirectory + "/RuDeTimeDates.json";
             timeBlock = JsonConvert.DeserializeObject<List<TimeBlock>>(File.ReadAllText(fileName));
 
             return timeBlock;
