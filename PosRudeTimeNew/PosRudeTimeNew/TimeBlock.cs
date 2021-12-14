@@ -58,6 +58,7 @@ namespace PosRudeTimeNew
             Serialize(timeBlock);
         }
 
+
         public static void EditBlock(List<TimeBlock> timeBlock, DateTime editItem, DateTime startTime, DateTime endTime, string name, string location, string description)
         {
             DeleteBlock(timeBlock, editItem);

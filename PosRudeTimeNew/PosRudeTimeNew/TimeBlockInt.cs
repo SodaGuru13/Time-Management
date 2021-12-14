@@ -28,6 +28,45 @@ namespace PosRudeTimeNew
             {
                 timeBlockList.Add(turn);
             }
+
+        }
+
+        public TimeBlockInt(DateTime recievedFromToast, int i)
+        {
+
+            InitializeComponent();
+            int three = i;
+
+            List<TimeBlock> timeBlock = TimeBlock.Deserialize();
+
+            //List<TimeBlock> timeBlock = SortedList();
+
+            var block = timeBlock.SingleOrDefault(date => date.StartTime == recievedFromToast);
+
+            this.EnterStartDate.Value = block.StartTime.Date;
+            this.EnterStart.Value = block.StartTime;
+            this.EnterEndDate.Value = block.EndTime.Date;
+            this.EnterEnd.Value = block.EndTime;
+            this.NameText.Text = block.Name;
+            this.DescriptionTextBox.Text = block.Description;
+            this.LocationTextBox.Text = block.Location;
+            /*
+            if (element >= timeBlock.Count)
+            {
+                return;
+            }
+            else
+            {
+                ++element;
+                this.EnterStartDate.Value = timeBlock[element - 1].StartTime.Date;
+                this.EnterStart.Value = timeBlock[element - 1].StartTime;
+                this.EnterEndDate.Value = timeBlock[element - 1].EndTime.Date;
+                this.EnterEnd.Value = timeBlock[element - 1].EndTime;
+                this.NameText.Text = timeBlock[element - 1].Name;
+                this.DescriptionTextBox.Text = timeBlock[element - 1].Description;
+                this.LocationTextBox.Text = timeBlock[element - 1].Location;
+            }
+            */
         }
 
         private void TimeBlockInt_Load(object sender, EventArgs e)
@@ -74,6 +113,9 @@ namespace PosRudeTimeNew
                     TimeBlock.AddBlock(timeBlockList, day.Add(this.EnterStart.Value.TimeOfDay), day.Add(this.EnterEnd.Value.TimeOfDay), name, location, description);
                 }
             }
+
+            new Alert(DescriptionTextBox.Text, EnterStart.Value, EnterEnd.Value, NameText.Text, LocationTextBox.Text); //To set the Toast alerts, windows popup
+
         }
 
         private void DeleteButton_Click(object sender, EventArgs e)
